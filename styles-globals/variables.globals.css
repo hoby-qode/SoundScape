@@ -1,0 +1,33 @@
+:root {
+  --wght: 300;
+  --wdth: 100;
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #0E0E0E;
+  --color-primary: #e0deff;
+  --color-secondary: #ff1f1f;
+}
+
+@font-face {
+  font-family: 'Antarctica';
+  src: url('./fonts/Antarctica-VF.ttf');
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.2rem;
+  color: var(--dark);
+  font-family: 'Antarctica', sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-weight: 300;
+  margin: 0;
+
+  scroll-behavior: smooth;
+}
